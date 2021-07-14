@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="pramos22"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-07-10 10:07:55 AM"/>
+        <attribute name="created" value="cHJhbW9zMjI7QlItUEUwNjQ5Vk47MjAyMS0wNy0xMDswOTo1NDo0MiBBTTsyNzQx"/>
+        <attribute name="edited" value="cHJhbW9zMjI7QlItUEUwNjQ5Vk47MjAyMS0wNy0xMDsxMDowNzo1NSBBTTsxOzI4NDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cliente" type="String" array="False" size=""/>
+            <declare name="temCartao" type="Boolean" array="False" size=""/>
+            <declare name="numeroDoCartao" type="String" array="False" size=""/>
+            <input variable="cliente"/>
+            <input variable="temCartao"/>
+            <if expression="temCartao==true">
+                <then>
+                    <input variable="numeroDoCartao"/>
+                </then>
+                <else>
+                    <output expression="&quot;Caro(a)&quot;&amp;cliente&amp;&quot;, Infelizmente s&#243; realizamos vendas por cart&#227;o de cr&#233;dito&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="pramos22"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-07-10 05:07:36 PM"/>
+        <attribute name="created" value="cHJhbW9zMjI7QlItUEUwNjQ5Vk47MjAyMS0wNy0xMDswNDo1NTo1OCBQTTsyNzU5"/>
+        <attribute name="edited" value="cHJhbW9zMjI7QlItUEUwNjQ5Vk47MjAyMS0wNy0xMDswNTowNzozNiBQTTsyOzI4NjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="fatorIndice, fatorNumero, produto" type="Integer" array="False" size=""/>
+            <assign variable="fatorIndice" expression="0"/>
+            <output expression="&quot;Digite o n&#250;mero que ser&#225; multiplicado:&quot;" newline="True"/>
+            <input variable="fatorNumero"/>
+            <while expression="fatorIndice&lt;=10">
+                <assign variable="produto" expression="fatorIndice*fatorNumero"/>
+                <output expression="fatorNumero&amp;&quot;x&quot;&amp;fatorIndice&amp;&quot;=&quot;&amp;produto" newline="True"/>
+                <assign variable="fatorIndice" expression="fatorIndice+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

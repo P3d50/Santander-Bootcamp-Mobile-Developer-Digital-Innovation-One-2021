@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="pramos22"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-07-10 09:54:09 AM"/>
+        <attribute name="created" value="cHJhbW9zMjI7QlItUEUwNjQ5Vk47MjAyMS0wNy0xMDswOTozOTo1OSBBTTsyNzUy"/>
+        <attribute name="edited" value="cHJhbW9zMjI7QlItUEUwNjQ5Vk47MjAyMS0wNy0xMDswOTo1NDowOSBBTTsxOzI4NTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="1"/>
+            <assign variable="b" expression="1"/>
+            <assign variable="c" expression="3"/>
+            <output expression="&quot;valor de a - [&quot;&amp;a&amp;&quot;], a &#233; maior que 3 - [&quot;&amp;(a&gt;3)&amp;&quot;]&quot;" newline="True"/>
+            <output expression="&quot;valor de a - [&quot;&amp;a&amp;&quot;], a &#233; menor que 3 - [&quot;&amp;(a&lt;3)&amp;&quot;]&quot;" newline="True"/>
+            <output expression="&quot;valor de a - [&quot;&amp;a&amp;&quot;], valor de b - [&quot;&amp;b&amp;&quot;], a &#233; igual a b - [&quot;&amp;(a==b)&amp;&quot;]&quot;" newline="True"/>
+            <output expression="&quot;valor de a - [&quot;&amp;a&amp;&quot;], valor de b - [&quot;&amp;b&amp;&quot;], a &#233; menor ou igual a b - [&quot;&amp;(a&lt;=b)&amp;&quot;]&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

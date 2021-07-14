@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="pramos22"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-07-10 12:27:57 PM"/>
+        <attribute name="created" value="cHJhbW9zMjI7QlItUEUwNjQ5Vk47MjAyMS0wNy0xMDsxMDoyMzo1NSBBTTsyNzMz"/>
+        <attribute name="edited" value="cHJhbW9zMjI7QlItUEUwNjQ5Vk47MjAyMS0wNy0xMDsxMjoyNzo1NyBQTTs2OzI4Njk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="vendedor" type="String" array="False" size=""/>
+            <declare name="valorMediaDeVendaSemestre, bonus, vendaJaneiro, vendaFevereiro, vendaMarco, vendaAbril" type="Real" array="False" size=""/>
+            <input variable="vendedor"/>
+            <input variable="vendaJaneiro"/>
+            <input variable="vendaFevereiro"/>
+            <input variable="vendaMarco"/>
+            <input variable="vendaAbril"/>
+            <assign variable="valorMediaDeVendaSemestre" expression="(vendaJaneiro+vendaFevereiro+vendaMarco+vendaAbril)/4"/>
+            <if expression="valorMediaDeVendaSemestre&gt;=5000">
+                <then>
+                    <assign variable="bonus" expression="10"/>
+                </then>
+                <else>
+                    <assign variable="bonus" expression="3"/>
+                </else>
+            </if>
+            <output expression="&quot;Parab&#233;ns &quot;&amp;vendedor&amp;&quot;! Voc&#234; ganhou um bonus de&quot;&amp;bonus&amp;&quot;%&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
