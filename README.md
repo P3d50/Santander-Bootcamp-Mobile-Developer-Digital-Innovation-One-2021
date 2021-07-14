@@ -24,48 +24,18 @@ O Bootcamp consiste em desenvolver as habilidades necessárias para criar aplica
 - Projetando aplicativo Android usando Kotlin
 - Integração de dados com SQLite no Android
 - TDD e Padrões de Testes no desenvolvimento de aplicativos
-- Expo
-## Implantação em produção
-- Back end: Heroku
-- Front end web: Netlify
-- Banco de dados: Postgresql
-
-# Como executar o projeto
-
-## Back end
-Pré-requisitos: Java 11
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto back end
-cd backend
-
-# executar o projeto
-./mvnw spring-boot:run
-```
-
-## Front end web
-Pré-requisitos: npm / yarn
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto front end web
-cd front-web
-
-# instalar dependências
-yarn install
-
-# executar o projeto
-yarn start
-```
+- Conceitos de Navegação, Aparência e Estilo de aplicativos Android
+- ViewModel e Lifecycle para melhor experiência em aplicativos Android
+- Desenvolvimento Integrado de aplicações Android
+- Utilizando recursos nativos do Android
+- Desenvolvimento Kotlin com Clean Architecture e MVVM
+- Trabalhando com processamento assíncrono no Android
+- Padrões e Convenções de Código Kotlin
+- Criando um App de lembretes e tarefas com Kotlin
 
 # Autor
 
-Wellington Mazoni de Andrade
+P3d50
 
-https://www.linkedin.com/in/wmazoni
+https://www.linkedin.com/in/pedro-ramos-3b35aaa0/
 
