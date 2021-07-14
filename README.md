@@ -4,15 +4,15 @@
 
 # Sobre o Bootcamp
 
-Este repositório foi construído durante a 1ª edição do **Santander-Bootcamp-Mobile-Developer**, iniciativa do Santander através do programa de bolsas de estudo [**Becas Santander**]https://www.becas-santander.com/ em parceria com a [DIO]https://digitalinnovation.one/.
+<img src="https://github.com/P3d50/Santander-Bootcamp-Mobile-Developer-Digital-Innovation-One-2021/blob/main/Santander%20Mobile%20Developer.png" align="left" height="150" width="150" >O bootcamp é uma iniciativa do Santander através do programa de bolsas de estudo [**Becas Santander**]https://www.becas-santander.com/ em parceria com a [DIO]https://digitalinnovation.one/. Repositório construído durante a 1ª edição do **Santander-Bootcamp-Mobile-Developer**.
 
 O Bootcamp consiste em desenvolver as habilidades necessárias para criar aplicativos mobile nativos para Android e aplicar as melhores práticas utilizadas por experts do mercado em desenvolvimento mobile.
 
-## Team mobile
-<img src="https://github.com/P3d50/Santander-Bootcamp-Mobile-Developer-Digital-Innovation-One-2021/blob/main/Santander%20Mobile%20Developer.png" align="left" height="100" width="100" >
 
-# Tecnologias e habilidades exploradas
-##
+
+
+
+## Tecnologias e habilidades exploradas
 - Lógica de programação
 - Git e GitHub
 - Kotlin
