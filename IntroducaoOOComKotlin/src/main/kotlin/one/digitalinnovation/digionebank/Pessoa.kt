@@ -8,7 +8,7 @@ class Pessoa {
     private set
 
     constructor(){
-
+        println("Construindo um objeto do tipo Pessoa: ${this.toString()}")
     }
 
     override fun toString() = "Nome: $nome $sobrenome, CPF: $cpf"
