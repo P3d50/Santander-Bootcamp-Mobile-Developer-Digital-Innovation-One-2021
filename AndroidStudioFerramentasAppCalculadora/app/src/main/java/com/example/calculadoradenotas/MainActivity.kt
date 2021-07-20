@@ -26,15 +26,12 @@ class MainActivity : AppCompatActivity() {
             var media = (nota1+nota2)/2
             var aprovado:String
 
-            resultado.setTextSize(20, 50.0F)
-
             if(media>=6 && faltas<=10){
                 aprovado ="Aluno aprovado"
                 resultado.setTextColor(Color.GREEN)
             }else{
                 aprovado = "Aluno reprovado"
                 resultado.setTextColor(Color.BLACK)
-
             }
 
                 resultado.setText("""
