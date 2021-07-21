@@ -9,7 +9,8 @@
 Repositório construído durante a 1ª edição do **Santander-Bootcamp-Mobile-Developer**.
 
 ## Tecnologias e habilidades exploradas
-- Lógica de programação
+<a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/Introdu%C3%A7%C3%A3o%20a%20l%C3%B3gica%20de%20programa%C3%A7%C3%A3o"> - Lógica de programação</a>
+
 - Git e GitHub
 - Kotlin
 - Pensamento computacional
