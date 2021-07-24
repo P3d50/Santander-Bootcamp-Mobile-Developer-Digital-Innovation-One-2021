@@ -5,7 +5,9 @@ import conta.ContaCorrente
 import conta.ContaPoupanca
 
 fun main() {
-    
+    mainJava.printJava()
+
+
     var conta1 = ContaCorrente(1,"12")
     var conta2 = ContaPoupanca(2,"12")
     println("*****************************")
