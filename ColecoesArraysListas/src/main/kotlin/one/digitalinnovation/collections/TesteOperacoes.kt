@@ -15,6 +15,8 @@ fun main() {
         println(it)
     }
 
+
+
     println(salarios.count { it in 2000.0 .. 5000.0 })
     println(salarios.find { it == 2481.0 })
     println(salarios.find { it == 2444.4 })
