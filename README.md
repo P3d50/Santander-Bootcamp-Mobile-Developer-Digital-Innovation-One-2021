@@ -10,11 +10,10 @@ Repositório construído durante a 1ª edição do **Santander-Bootcamp-Mobile-D
 
 ## Tecnologias e habilidades exploradas
 - <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/Introdu%C3%A7%C3%A3o%20a%20l%C3%B3gica%20de%20programa%C3%A7%C3%A3o">Lógica de programação</a>
-
 - Git e GitHub
-- Kotlin
+- <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/ColecoesArraysListas">Kotlin</a>
 - Pensamento computacional
-- Orientação a Objetos
+- <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/IntroducaoOOComKotlin"> Orientação a Objetos</a>
 - Arquitetura da plataforma Android
 - Android Studio e Principais Ferramentas
 - <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/DIO-android-aula-6-error-debug-master">Melhores práticas - Debugging, Tratamento de Erros e Exceções</a>
