@@ -17,7 +17,7 @@ Repositório construído durante a 1ª edição do **Santander-Bootcamp-Mobile-D
 - Orientação a Objetos
 - Arquitetura da plataforma Android
 - Android Studio e Principais Ferramentas
-- <a href="https://github.com/P3d50/DIO-android-aula-6-error-debug">Melhores práticas - Debugging, Tratamento de Erros e Exceções</a>
+- <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/DIO-android-aula-6-error-debug-master">Melhores práticas - Debugging, Tratamento de Erros e Exceções</a>
 - Projetando aplicativo Android usando Kotlin
 - Integração de dados com SQLite no Android
 - TDD e Padrões de Testes no desenvolvimento de aplicativos
