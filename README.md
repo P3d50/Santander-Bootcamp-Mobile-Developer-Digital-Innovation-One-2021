@@ -15,7 +15,7 @@ Repositório construído durante a 1ª edição do **Santander-Bootcamp-Mobile-D
 - Pensamento computacional
 - <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/IntroducaoOOComKotlin"> Orientação a Objetos</a>
 - Arquitetura da plataforma Android
-- Android Studio e Principais Ferramentas
+- <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/AndroidStudioFerramentasAppCalculadora"> Android Studio e Principais Ferramentas</a>
 - <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/DIO-android-aula-6-error-debug-master">Melhores práticas - Debugging, Tratamento de Erros e Exceções</a>
 - Projetando aplicativo Android usando Kotlin
 - Integração de dados com SQLite no Android
