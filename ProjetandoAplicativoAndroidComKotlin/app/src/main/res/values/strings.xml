@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">IMCAplication</string>
+    <string name="ola_radiobutton">ola radioButton</string>
+    <string name="ola_checkbox">ola CheckBox</string>
 </resources>

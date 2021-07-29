@@ -1,48 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/black">
 
     <TextView
+        android:id="@+id/textView"
+        style="@style/title_purple_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        style="@style/title_purple_text" />
+        android:textSize="40sp"
+        android:layout_gravity="start"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="@dimen/material_emphasis_high_type"/>
 
     <TextView
+        android:id="@+id/textView2"
+        style="@style/title_purple_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.602"
-        style="@style/title_purple_text"/>
+        android:layout_gravity="end"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginTop="32dp"/>
 
     <RadioButton
+        android:id="@+id/radioButton"
         style="@style/title_purple_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ola radioButton"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="469dp" />
+        android:text="@string/ola_radiobutton"
+        android:textSize="30sp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginTop="32dp"
+        android:visibility="invisible"/>
 
     <CheckBox
         style="@style/title_purple_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ola CheckBox"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="578dp" />
+        android:text="@string/ola_checkbox"
+        android:textSize="30sp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginTop="32dp"
+        android:visibility="gone"
+        tools:visibility="visible"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
