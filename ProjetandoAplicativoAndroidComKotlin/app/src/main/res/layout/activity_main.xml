@@ -4,57 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_horizontal"
+    android:gravity="center"
     android:orientation="vertical"
+    tools:context=".MainActivity"
     android:background="@color/black">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewIMC"
         style="@style/title_purple_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:textSize="40sp"
-        android:layout_gravity="start"
-        android:paddingTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
         android:paddingBottom="16dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginBottom="@dimen/material_emphasis_high_type"/>
+        android:text="@string/imc"
+        android:textStyle="bold"
+        android:textSize="80sp"/>
 
-    <TextView
-        android:id="@+id/textView2"
-        style="@style/title_purple_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:textSize="24sp"
-        android:layout_gravity="end"
-        android:paddingTop="16dp"
-        android:paddingBottom="16dp"
-        android:layout_marginTop="32dp"/>
+    <EditText
+        android:id="@+id/editTextPeso"
+        android:hint="@string/peso_ex_65_8_kg"
+        style="@style/editTextNumber" />
 
-    <RadioButton
-        android:id="@+id/radioButton"
-        style="@style/title_purple_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/ola_radiobutton"
-        android:textSize="30sp"
-        android:paddingTop="16dp"
-        android:paddingBottom="16dp"
-        android:layout_marginTop="32dp"
-        android:visibility="invisible"/>
+    <EditText
+        android:id="@+id/editTextAltura"
+        style="@style/editTextNumber"
+        android:hint="@string/altura_ex_1_78_mts"
+   />
 
-    <CheckBox
-        style="@style/title_purple_text"
+    <Button
+        android:id="@+id/buttonCalcular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ola_checkbox"
-        android:textSize="30sp"
-        android:paddingTop="16dp"
-        android:paddingBottom="16dp"
-        android:layout_marginTop="32dp"
-        android:visibility="gone"
-        tools:visibility="visible"/>
+        android:text="Calcular"
+        android:background="@color/cardview_dark_background"
+        android:layout_marginTop="24dp"/>
+
 
 </LinearLayout>
