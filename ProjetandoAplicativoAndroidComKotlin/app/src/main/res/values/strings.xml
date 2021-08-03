@@ -6,4 +6,5 @@
     <string name="peso_ex_65_8_kg">Peso (ex:65.8 kg)</string>
     <string name="altura_ex_1_78_mts">Altura (ex:1.78 mts)</string>
     <string name="calcular">Calcular</string>
+    <string name="limpar">Limpar</string>
 </resources>
