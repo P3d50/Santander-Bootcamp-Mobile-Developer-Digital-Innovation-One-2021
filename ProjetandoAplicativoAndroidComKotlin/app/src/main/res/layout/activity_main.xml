@@ -18,28 +18,28 @@
         android:layout_marginTop="8dp"
         android:paddingBottom="16dp"
         android:text="@string/imc"
-        android:textStyle="bold"
-        android:textSize="80sp"/>
+        android:textSize="80sp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/editTextPeso"
         android:hint="@string/peso_ex_65_8_kg"
         style="@style/editTextNumber"
-        />
+        android:autofillHints="@string/peso_ex_65_8_kg" />
 
     <EditText
         android:id="@+id/editTextAltura"
         style="@style/editTextNumber"
         android:hint="@string/altura_ex_1_78_mts"
-        android:autofillHints="" />
+        android:autofillHints="@string/altura_ex_1_78_mts" />
+
 
     <Button
         android:id="@+id/buttonCalcular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/calcular"
-        android:background="@color/cardview_dark_background"
+        android:background="@color/white"
         android:layout_marginTop="24dp"/>
-
 
 </LinearLayout>
