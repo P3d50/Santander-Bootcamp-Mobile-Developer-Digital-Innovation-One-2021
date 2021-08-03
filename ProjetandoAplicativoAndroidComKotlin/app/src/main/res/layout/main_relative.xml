@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical"
-    tools:context=".MainActivity"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
     android:background="@color/black">
 
     <TextView
@@ -14,32 +13,41 @@
         style="@style/title_purple_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="8dp"
-        android:paddingBottom="16dp"
+        android:layout_centerInParent="true"
         android:text="@string/imc"
         android:textStyle="bold"
         android:textSize="80sp"/>
 
     <EditText
-        android:id="@+id/editTextPeso"
+        android:id="@+id/editText1"
         android:hint="@string/peso_ex_65_8_kg"
         style="@style/editTextNumber"
-        />
+        android:layout_below="@+id/textViewIMC"
+        android:layout_centerHorizontal="true"
+        android:autofillHints="@string/peso_ex_65_8_kg" />
 
     <EditText
-        android:id="@+id/editTextAltura"
+        android:id="@+id/editTextAlt"
         style="@style/editTextNumber"
         android:hint="@string/altura_ex_1_78_mts"
-        android:autofillHints="" />
-
+        android:layout_below="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:autofillHints="@string/altura_ex_1_78_mts" />
     <Button
         android:id="@+id/buttonCalcular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/calcular"
         android:background="@color/cardview_dark_background"
-        android:layout_marginTop="24dp"/>
+        android:layout_below="@id/editTextAlt"
+        android:layout_centerHorizontal="true"
+        />
 
 
-</LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
