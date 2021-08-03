@@ -30,7 +30,7 @@
         app:layout_constraintVertical_bias="0.261" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/editTextPeso"
         style="@style/editTextNumber"
         android:autofillHints="@string/peso_ex_65_8_kg"
         android:hint="@string/peso_ex_65_8_kg"
@@ -40,13 +40,13 @@
         android:inputType="numberDecimal"/>
 
     <EditText
-        android:id="@+id/editTextAlt"
+        android:id="@+id/editTextAltura"
         style="@style/editTextNumber"
         android:autofillHints="@string/altura_ex_1_78_mts"
         android:hint="@string/altura_ex_1_78_mts"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText1"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPeso"
         android:inputType="numberDecimal"/>
 
     <Button
