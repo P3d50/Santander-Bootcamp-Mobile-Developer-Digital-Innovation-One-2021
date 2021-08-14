@@ -11,8 +11,11 @@ public class mainJava {
     }
 
     public static void main(String args[]){
+        ContaCorrente conta;
+
+
         Endereco endereco = new Endereco("anibal",19,"jardim","sala x");
-        ContaCorrente conta = new ContaCorrente(13,"457-8");
+        conta = new ContaCorrente(13,"457-8");
         cliente.Cliente cliente = new ClientePF(endereco,conta,"Pedro",30,"45567388894");
         cliente.imprimirDados();
         conta.depositar(500.0);

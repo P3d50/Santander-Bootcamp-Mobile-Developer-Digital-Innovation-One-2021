@@ -39,8 +39,6 @@ abstract class Conta(
 
     override fun sacar(valor:Double){
         val valorTaxa = valor*taxaDeSaque()
-
-
        if(temSaldo(valor)){
            println("""
         Saque                      ${instanceTypeName()}
@@ -48,12 +46,12 @@ abstract class Conta(
         taxa de saque:             ${taxaDeSaque()}%
         valor da taxa de saque: R$ ${valorTaxa} 
         """.trimIndent())
-            _valorSaldo-=valor
-            _valorSaldo-=(valorTaxa)
+            this._valorSaldo-=valor
+            this._valorSaldo-=valorTaxa
        }else{
            println("""
                Saque de R$ $valor não realizado por falta de saldo
-               Saldo atual: R$ $_valorSaldo
+               Saldo atual: R$ $this._valorSaldo
            """.trimIndent())
        }
         printSaldo()
