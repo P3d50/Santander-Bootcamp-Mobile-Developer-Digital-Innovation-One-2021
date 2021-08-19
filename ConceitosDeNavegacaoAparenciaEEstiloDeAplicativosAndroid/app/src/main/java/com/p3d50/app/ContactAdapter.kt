@@ -20,7 +20,7 @@ class ContactAdapter : RecyclerView.Adapter<ContactAdapter.ContactAdapterViewHol
     }
 
     override fun getItemCount(): Int {
-        TODO("Not yet implemented")
+        return list.size
     }
 
     class ContactAdapterViewHolder(intemView: View) : RecyclerView.ViewHolder(intemView){
