@@ -8,6 +8,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
+import android.view.MenuInflater
 import android.view.MenuItem
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -43,8 +44,30 @@ class MainActivity : AppCompatActivity() {
                 Contact("Andrea Sales",
                     "11944444444",
                     "img.png"
+                ),
+                Contact("Pedro Marcos",
+                    "11944444444",
+                    "img.png"
+                ),
+                Contact("Andrea Sales",
+                    "11944444444",
+                    "img.png"
+                ),
+                Contact("Pedro Marcos",
+                    "11944444444",
+                    "img.png"
+                ),
+                Contact("Andrea Sales",
+                    "11944444444",
+                    "img.png"
                 )
             )
         )
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        val inflater:MenuInflater = menuInflater
+        inflater.inflate(R.menu.menu_main,menu)
+        return true
     }
 }
