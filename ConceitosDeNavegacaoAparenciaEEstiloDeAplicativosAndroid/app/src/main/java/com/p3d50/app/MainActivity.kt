@@ -1,18 +1,13 @@
 package com.p3d50.app
 
 import android.os.Bundle
-import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.findNavController
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.navigateUp
-import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.p3d50.app.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
@@ -44,30 +39,33 @@ class MainActivity : AppCompatActivity() {
                 Contact("Andrea Sales",
                     "11944444444",
                     "img.png"
-                ),
-                Contact("Pedro Marcos",
-                    "11944444444",
-                    "img.png"
-                ),
-                Contact("Andrea Sales",
-                    "11944444444",
-                    "img.png"
-                ),
-                Contact("Pedro Marcos",
-                    "11944444444",
-                    "img.png"
-                ),
-                Contact("Andrea Sales",
-                    "11944444444",
-                    "img.png"
                 )
             )
         )
     }
 
+    private fun showToast(message:String) {
+        Toast.makeText(this,message,Toast.LENGTH_SHORT).show()
+    }
+
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         val inflater:MenuInflater = menuInflater
-        inflater.inflate(R.menu.menu_main,menu)
+        inflater.inflate(R.menu.menu,menu)
         return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+
+        return when (item.itemId){
+            R.id.action_settings-> {
+                showToast("Settings")
+                true
+            }
+            R.id.action_exit -> {
+                showToast("Exit")
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
     }
 }

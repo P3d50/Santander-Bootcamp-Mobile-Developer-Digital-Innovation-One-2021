@@ -1,15 +1,18 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.p3d50.app.MainActivity">
     <item
         android:id="@+id/action_settings"
-        android:orderInCategory="100"
+        android:onClick="onOptionsItemSelected"
+        android:orderInCategory="80"
         android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:visible="true" />
     <item
         android:id="@+id/action_exit"
+        android:onClick="onOptionsItemSelected"
         android:orderInCategory="90"
         android:title="@string/exit"
-        app:showAsAction="never" />
+        android:visible="true" />
 </menu>
