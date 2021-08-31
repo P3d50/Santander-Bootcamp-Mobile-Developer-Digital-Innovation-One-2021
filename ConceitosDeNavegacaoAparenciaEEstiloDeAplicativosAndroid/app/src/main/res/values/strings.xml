@@ -3,4 +3,6 @@
     <string name="action_settings">Settings</string>
     <string name="contact_photography">Contact photography</string>
     <string name="exit">Exit</string>
+    <string name="open_drawer">Abrir</string>
+    <string name="close_drawer">Fechar</string>
 </resources>

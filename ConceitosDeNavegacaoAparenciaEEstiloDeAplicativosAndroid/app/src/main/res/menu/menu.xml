@@ -2,7 +2,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.p3d50.app.MainActivity">
+    tools:context="com.p3d50.app.MainActivity"
+    >
     <item
         android:id="@+id/action_settings"
         android:onClick="onOptionsItemSelected"
