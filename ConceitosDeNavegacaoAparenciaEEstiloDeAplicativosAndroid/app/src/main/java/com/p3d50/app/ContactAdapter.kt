@@ -7,7 +7,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class ContactAdapter : RecyclerView.Adapter<ContactAdapter.ContactAdapterViewHolder>() {
+class ContactAdapter(var listener:ContactItemClickListener) : RecyclerView.Adapter<ContactAdapter.ContactAdapterViewHolder>() {
 
     private val list:MutableList<Contact> = mutableListOf()
 
@@ -16,7 +16,7 @@ class ContactAdapter : RecyclerView.Adapter<ContactAdapter.ContactAdapterViewHol
         viewType: Int
     ): ContactAdapter.ContactAdapterViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.contact_item,parent, false)
-        return ContactAdapterViewHolder(view)
+        return ContactAdapterViewHolder(view, list, listener)
     }
 
     override fun onBindViewHolder(holder: ContactAdapter.ContactAdapterViewHolder, position: Int) {
@@ -33,10 +33,16 @@ class ContactAdapter : RecyclerView.Adapter<ContactAdapter.ContactAdapterViewHol
         notifyDataSetChanged()
     }
 
-    class ContactAdapterViewHolder(intemView: View) : RecyclerView.ViewHolder(intemView){
+    class ContactAdapterViewHolder(intemView: View, var list:List<Contact>, var listener: ContactItemClickListener) : RecyclerView.ViewHolder(intemView){
         private val tvName: TextView = itemView.findViewById(R.id.textViewName)
         private val tvPhone: TextView = itemView.findViewById(R.id.textViewPhone)
         private val ivPhotography: ImageView = itemView.findViewById(R.id.imageViewPhotograph)
+
+        init{
+            itemView.setOnClickListener{
+                listener.clickItemContact(list[adapterPosition])
+            }
+        }
 
         fun bind(contact:Contact){
                 tvName.text = contact.name

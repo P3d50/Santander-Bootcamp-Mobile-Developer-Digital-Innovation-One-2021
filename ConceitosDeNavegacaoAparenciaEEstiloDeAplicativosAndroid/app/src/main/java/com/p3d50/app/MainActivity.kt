@@ -1,5 +1,8 @@
 package com.p3d50.app
 
+import android.content.Context
+import android.content.Intent
+import android.content.SharedPreferences
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
@@ -9,24 +12,51 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.widget.Toolbar
+import androidx.core.content.edit
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.p3d50.app.PersonDetailActivity.Companion.EXTRA_CONTACT
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(),ContactItemClickListener {
 
     private val rvList:RecyclerView by lazy{
         findViewById<RecyclerView>(R.id.rv_list)
     }
 
-    private val adapter = ContactAdapter()
+    private val adapter = ContactAdapter(this)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.drawer_menu)
         initDrawer()
         bindViews()
-        updateList()
+        fetchListContact()
+    }
+
+    private fun fetchListContact(){
+
+       val list = arrayListOf(
+                Contact("Pedro Marcos",
+                    "11944444444",
+                    "img.png"
+                ),
+                Contact("Andrea Sales",
+                    "11944443333",
+                    "img.png"
+                )
+            )
+
+        getInstanceSharedPreferences().edit{
+            putString("contacts",Gson().)
+        }
+
+    }
+
+
+    private fun getInstanceSharedPreferences():SharedPreferences{
+
+        return getSharedPreferences("com.p3d50.app.PREFERENCES", Context.MODE_PRIVATE)
     }
 
     private fun initDrawer(){
@@ -52,18 +82,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun updateList(){
-        adapter.updateList(
-            arrayListOf(
-                Contact("Pedro Marcos",
-                        "11944444444",
-                        "img.png"
-                ),
-                Contact("Andrea Sales",
-                    "11944444444",
-                    "img.png"
-                )
-            )
-        )
+
     }
 
     private fun showToast(message:String) {
@@ -89,5 +108,12 @@ class MainActivity : AppCompatActivity() {
             }
             else -> super.onOptionsItemSelected(item)
         }
+    }
+
+    override fun clickItemContact(contact: Contact) {
+        val intent = Intent(this,PersonDetailActivity::class.java)
+        intent.putExtra(EXTRA_CONTACT,contact)
+        startActivity(intent)
+
     }
 }
