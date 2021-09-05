@@ -20,7 +20,7 @@
 - <a href="https://github.com/P3d50/listacontatos-bootcamp-kotlin">Integração de dados com SQLite no Android</a>
 - TDD e Padrões de Testes no desenvolvimento de aplicativos
 - <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/ConceitosDeNavegacaoAparenciaEEstiloDeAplicativosAndroid">Conceitos de Navegação, Aparência e Estilo de aplicativos Android</a>
-- <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/ViewModelELifecycleParaMelhorExperienciaEmAplicativosAndroid"></a>ViewModel e Lifecycle para melhor experiência em aplicativos Android
+- <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/ViewModelELifecycleParaMelhorExperienciaEmAplicativosAndroid">ViewModel e Lifecycle para melhor experiência em aplicativos Android</a>
 - Desenvolvimento Integrado de aplicações Android
 - Utilizando recursos nativos do Android
 - Desenvolvimento Kotlin com Clean Architecture e MVVM
