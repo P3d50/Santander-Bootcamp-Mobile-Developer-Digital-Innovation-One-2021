@@ -21,7 +21,9 @@
 - TDD e Padrões de Testes no desenvolvimento de aplicativos
 - <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/ConceitosDeNavegacaoAparenciaEEstiloDeAplicativosAndroid">Conceitos de Navegação, Aparência e Estilo de aplicativos Android</a>
 - <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/ViewModelELifecycleParaMelhorExperienciaEmAplicativosAndroid">ViewModel e Lifecycle para melhor experiência em aplicativos Android</a>
-- Desenvolvimento Integrado de aplicações Android
+- Desenvolvimento Integrado de aplicações Android 
+   - <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/AppContentProvider">Application content provider</a>
+   - <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/AppContentProviderClientr">Application content  Client</a>
 - Utilizando recursos nativos do Android
 - Desenvolvimento Kotlin com Clean Architecture e MVVM
 - Trabalhando com processamento assíncrono no Android
