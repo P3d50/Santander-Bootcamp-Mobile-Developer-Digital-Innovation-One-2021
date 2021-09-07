@@ -24,6 +24,7 @@
 - Desenvolvimento Integrado de aplicações Android 
    - <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/AppContentProvider">Application content provider</a>
    - <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/AppContentProviderClient">Application content  Client</a>
+   - <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/Notifications">Notifications</a>
 - Utilizando recursos nativos do Android
 - Desenvolvimento Kotlin com Clean Architecture e MVVM
 - Trabalhando com processamento assíncrono no Android
