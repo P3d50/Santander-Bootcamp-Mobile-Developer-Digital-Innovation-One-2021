@@ -2,7 +2,9 @@ package com.p3d50.appnotification
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
+import com.google.firebase.messaging.FirebaseMessaging
 
 class MainActivity : AppCompatActivity() {
 
@@ -14,7 +16,9 @@ class MainActivity : AppCompatActivity() {
 
         buttonSend = findViewById(R.id.button_send_notification)
         buttonSend.setOnClickListener {
-            this.showNotification("123","Bootcamp Android", "Kotlin Android Curso")
+            this.showNotification("1234","Bootcamp Android", "Kotlin Android Curso")
         }
+
+        Log.i("TokenMessagingService",FirebaseMessaging.getInstance().token.toString())
     }
 }
