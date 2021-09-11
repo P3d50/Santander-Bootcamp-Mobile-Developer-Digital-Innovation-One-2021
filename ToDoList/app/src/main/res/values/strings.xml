@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="criar_tarefa">Criar Tarefa</string>
+    <string name="data">Data</string>
+    <string name="descri_o">Descrição</string>
+    <string name="t_tulo">Título</string>
+    <string name="hora">Hora</string>
+</resources>
