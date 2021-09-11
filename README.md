@@ -4,7 +4,7 @@
 
 # Sobre o Bootcamp
 
-O bootcamp foi uma jornada intensa e muito recompensadora. Eu acabei praticando bastante pois criava os apps acompanhando quase todas as aulas, em algumas mudou alguma implementação de classe, ou o exemplo da aula foi deprecated ou algum erro de versão, então nem sempre foi só seguir as aulas, teve muito código, pesquisa, leitura de documentação, stackoverflow nem se fala. A sensação é de dever cumprido, porém a consciência de que ainda tem muito pra desbravar e praticar.
+O bootcamp foi uma jornada intensa e muito recompensadora. Eu acabei praticando bastante pois criava os apps acompanhando quase todas as aulas, tentando melhorar o app e implementar algo a mais,em algumas mudou alguma implementação de classe, ou o exemplo da aula foi deprecated ou algum erro de versão, então nem sempre foi só seguir as aulas, teve muito código, pesquisa, leitura de documentação, stackoverflow nem se fala. A sensação é de dever cumprido, porém a consciência de que ainda tem muito pra desbravar e praticar.
 
 <img src="https://github.com/P3d50/Santander-Bootcamp-Mobile-Developer-Digital-Innovation-One-2021/blob/main/assets/Santander%20Mobile%20Developer.png" align="left" height="350" width="350" >O bootcamp é uma parceria do <a href="https://www.becas-santander.com/">Santander<a/>  com a <a href="https://digitalinnovation.one/">DIO</a>. O Bootcamp consiste em desenvolver as habilidades necessárias para criar aplicativos mobile nativos para Android e aplicar as melhores práticas utilizadas por experts do mercado em desenvolvimento mobile. 
 
