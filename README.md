@@ -34,6 +34,7 @@ O bootcamp foi uma jornada intensa e muito recompensadora. Eu acabei praticando 
 - Trabalhando com processamento assíncrono no Android
 - Padrões e Convenções de Código Kotlin
 - <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/ToDoList">Criando um App de lembretes e tarefas com Kotlin</a>
+- ![](https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/blob/main/ToDoList/assets/todolist-screen-record.gif)
 
 # Autor
 
