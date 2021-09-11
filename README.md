@@ -31,7 +31,7 @@
 - Desenvolvimento Kotlin com Clean Architecture e MVVM
 - Trabalhando com processamento assíncrono no Android
 - Padrões e Convenções de Código Kotlin
-- Criando um App de lembretes e tarefas com Kotlin
+- <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/ToDoList">Criando um App de lembretes e tarefas com Kotlin</a>
 
 # Autor
 
