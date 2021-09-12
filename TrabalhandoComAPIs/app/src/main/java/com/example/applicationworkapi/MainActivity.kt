@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.applicationworkapi.api.MyRetrofit
 import com.example.applicationworkapi.model.Person
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -14,15 +15,17 @@ import retrofit2.Response
  class MainActivity : AppCompatActivity() {
 
     lateinit var recyclerPersons:  RecyclerView
+    lateinit var floating_action_button_refresh_person_list:FloatingActionButton
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-
         recyclerPersons = findViewById(R.id.recycler_persons)
         recyclerPersons.layoutManager = LinearLayoutManager(this)
+        floating_action_button_refresh_person_list = findViewById(R.id.floating_action_button_refresh_person_list)
         getData()
+        initListeners()
     }
 
      private fun getData(){
@@ -38,5 +41,11 @@ import retrofit2.Response
              }
 
          })
+     }
+
+     private fun initListeners(){
+         floating_action_button_refresh_person_list.setOnClickListener {
+             getData()
+         }
      }
 }

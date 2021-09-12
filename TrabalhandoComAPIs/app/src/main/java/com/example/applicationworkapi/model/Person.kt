@@ -8,5 +8,10 @@ data class Person(
      @SerializedName("firstName")
      val firstName:String,
      @SerializedName("lastName")
-     val lastName:String
-)
+     val lastName:String,
+     @SerializedName("phones")
+    val phones:List<Phone> = ArrayList()
+){
+
+
+}
