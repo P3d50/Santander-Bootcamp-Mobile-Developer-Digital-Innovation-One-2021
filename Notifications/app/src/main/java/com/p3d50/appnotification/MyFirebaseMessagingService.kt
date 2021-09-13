@@ -14,12 +14,13 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
 
     override fun onNewToken(token: String) {
         super.onNewToken(token)
-        Log.d(TAG,"new TOKEN: $token")
+        Log.d(TAG,"new TOKEN: ${token}")
 
     }
 
     override fun onMessageReceived(remoteMessage: RemoteMessage) {
         super.onMessageReceived(remoteMessage)
+
         FirebaseMessaging.getInstance().token.addOnCompleteListener(OnCompleteListener { task ->
             if (!task.isSuccessful) {
                 Log.w(TAG, "Fetching FCM registration token failed", task.exception)
@@ -31,15 +32,8 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
 
             // Log and toast
             Log.d(TAG, token.toString())
-            Toast.makeText(baseContext, token.toString(), Toast.LENGTH_SHORT).show()
-            this.showNotification(
-                "1234",
-                remoteMessage.notification?.title.toString(),
-                remoteMessage.notification?.body.toString()
-                )
+            //Toast.makeText(baseContext, token.toString(), Toast.LENGTH_SHORT).show()
         })
-
-
     }
 
 }

@@ -1,48 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardCornerRadius="4dp"
-     app:cardElevation="2dp">
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="3dp"
+    android:padding="4dp">
 
- <LinearLayout
+ <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:id="@+id/constraint_id">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            
             <TextView
                 android:id="@+id/person_first_name"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:textSize="24sp"/>
+                android:textSize="24sp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/guide_center"/>
 
             <TextView
                 android:id="@+id/person_last_name"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:textSize="18sp"
-
+                android:textSize="24sp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@id/guide_center"
+                app:layout_constraintEnd_toEndOf="parent"
                 />
 
 
-            <TextView
-                android:id="@+id/person_phones"
-                android:layout_width="wrap_content"
+            <androidx.recyclerview.widget.RecyclerView
+                android:orientation="horizontal"
+                android:id="@+id/recycler_view_person_phones"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:textSize="18sp"
+                tools:itemCount="2"
+                app:layout_constraintTop_toBottomOf="@id/person_first_name"
+                app:layout_constraintStart_toStartOf="@id/constraint_id"
+                app:layout_constraintEnd_toEndOf="@+id/constraint_id"
+                tools:listitem="@layout/phone_item"
                 />
 
-             
-        </LinearLayout>
- </LinearLayout>
+     <androidx.constraintlayout.widget.Guideline
+         android:id="@+id/guide_center"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintGuide_begin="183dp"
+         app:layout_constraintStart_toStartOf="parent" />
 
-</androidx.cardview.widget.CardView>
+
+ </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

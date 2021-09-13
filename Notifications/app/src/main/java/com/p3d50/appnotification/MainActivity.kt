@@ -18,7 +18,6 @@ class MainActivity : AppCompatActivity() {
         buttonSend.setOnClickListener {
             this.showNotification("1234","Bootcamp Android", "Kotlin Android Curso")
         }
-
         Log.i("TokenMessagingService",FirebaseMessaging.getInstance().token.toString())
     }
 }

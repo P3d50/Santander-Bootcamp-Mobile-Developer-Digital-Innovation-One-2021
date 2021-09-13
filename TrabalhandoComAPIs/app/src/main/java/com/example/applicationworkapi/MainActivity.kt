@@ -18,6 +18,7 @@ import retrofit2.Response
     lateinit var floating_action_button_refresh_person_list:FloatingActionButton
 
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -47,5 +48,7 @@ import retrofit2.Response
          floating_action_button_refresh_person_list.setOnClickListener {
              getData()
          }
+
+
      }
 }
