@@ -27,17 +27,20 @@ O bootcamp foi uma jornada intensa e muito recompensadora. Eu acabei praticando 
    - <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/AppContentProvider">Application content provider</a>
    - <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/AppContentProviderClient">Application content  Client</a>
    - <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/Notifications">Notifications</a>
+![](https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/blob/main/Notifications/assets/notifications-screen-record.gif)
+
    - <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/TrabalhandoComAPIs">Trabalhando com APIs</a>
-       - ![](https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/blob/main/TrabalhandoComAPIs/assets/api-screen-record.gif)
+ ![](https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/blob/main/TrabalhandoComAPIs/assets/api-screen-record.gif)
 
  
- - Utilizando recursos nativos do Android
-   - <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/Agenda">Agenda</a>
+- Utilizando recursos nativos do Android
+- <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/Agenda">Agenda</a>
 - Desenvolvimento Kotlin com Clean Architecture e MVVM
 - Trabalhando com processamento assíncrono no Android
 - Padrões e Convenções de Código Kotlin
-      - <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/ToDoList">Criando um App de lembretes e tarefas com Kotlin</a>
-- ![](https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/blob/main/ToDoList/assets/todolist-screen-record.gif)
+- <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/ToDoList">Criando um App de lembretes e tarefas com Kotlin</a>
+ 
+![](https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/blob/main/ToDoList/assets/todolist-screen-record.gif)
 
 # Autor
 
