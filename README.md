@@ -30,7 +30,7 @@ O bootcamp foi uma jornada intensa e muito recompensadora. Eu acabei praticando 
 ![](https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/blob/main/Notifications/assets/notifications-screen-record.gif)
 
    - <a href="https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/tree/main/TrabalhandoComAPIs">Trabalhando com APIs</a>
- ![](https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/blob/main/TrabalhandoComAPIs/assets/api-screen-record.gif)
+ ![](https://github.com/P3d50/Santander-Bootcamp-Kotlin-Mobile-Developer-Digital-Innovation-One-2021/blob/main/TrabalhandoComAPIs/assets/api-screen-record1.gif)
 
  
 - Utilizando recursos nativos do Android
